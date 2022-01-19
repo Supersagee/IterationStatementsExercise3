@@ -1,0 +1,16 @@
+C:\Users\Billy\source\repos\IterationStatementsExercise3\IterationStatementsExercise3Console\bin\Debug\net5.0\IterationStatementsExercise3Console.exe
+C:\Users\Billy\source\repos\IterationStatementsExercise3\IterationStatementsExercise3Console\bin\Debug\net5.0\IterationStatementsExercise3Console.deps.json
+C:\Users\Billy\source\repos\IterationStatementsExercise3\IterationStatementsExercise3Console\bin\Debug\net5.0\IterationStatementsExercise3Console.runtimeconfig.json
+C:\Users\Billy\source\repos\IterationStatementsExercise3\IterationStatementsExercise3Console\bin\Debug\net5.0\IterationStatementsExercise3Console.runtimeconfig.dev.json
+C:\Users\Billy\source\repos\IterationStatementsExercise3\IterationStatementsExercise3Console\bin\Debug\net5.0\IterationStatementsExercise3Console.dll
+C:\Users\Billy\source\repos\IterationStatementsExercise3\IterationStatementsExercise3Console\bin\Debug\net5.0\ref\IterationStatementsExercise3Console.dll
+C:\Users\Billy\source\repos\IterationStatementsExercise3\IterationStatementsExercise3Console\bin\Debug\net5.0\IterationStatementsExercise3Console.pdb
+C:\Users\Billy\source\repos\IterationStatementsExercise3\IterationStatementsExercise3Console\obj\Debug\net5.0\IterationStatementsExercise3Console.csproj.AssemblyReference.cache
+C:\Users\Billy\source\repos\IterationStatementsExercise3\IterationStatementsExercise3Console\obj\Debug\net5.0\IterationStatementsExercise3Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Billy\source\repos\IterationStatementsExercise3\IterationStatementsExercise3Console\obj\Debug\net5.0\IterationStatementsExercise3Console.AssemblyInfoInputs.cache
+C:\Users\Billy\source\repos\IterationStatementsExercise3\IterationStatementsExercise3Console\obj\Debug\net5.0\IterationStatementsExercise3Console.AssemblyInfo.cs
+C:\Users\Billy\source\repos\IterationStatementsExercise3\IterationStatementsExercise3Console\obj\Debug\net5.0\IterationStatementsExercise3Console.csproj.CoreCompileInputs.cache
+C:\Users\Billy\source\repos\IterationStatementsExercise3\IterationStatementsExercise3Console\obj\Debug\net5.0\IterationStatementsExercise3Console.dll
+C:\Users\Billy\source\repos\IterationStatementsExercise3\IterationStatementsExercise3Console\obj\Debug\net5.0\ref\IterationStatementsExercise3Console.dll
+C:\Users\Billy\source\repos\IterationStatementsExercise3\IterationStatementsExercise3Console\obj\Debug\net5.0\IterationStatementsExercise3Console.pdb
+C:\Users\Billy\source\repos\IterationStatementsExercise3\IterationStatementsExercise3Console\obj\Debug\net5.0\IterationStatementsExercise3Console.genruntimeconfig.cache
