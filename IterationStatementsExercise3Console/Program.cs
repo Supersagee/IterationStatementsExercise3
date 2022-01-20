@@ -10,29 +10,10 @@ namespace IterationStatementsExercise3Console
 
             PrintNumbersBy3();
 
-            int userAge;
-            while (true)
-            {
-                Console.Write("How old are you? ");
-                if (int.TryParse(Console.ReadLine(), out userAge))
-                {
-                    break;
-                }
-                Console.WriteLine("It has to be a whole number! No decimals or letters you crazy person!");
-            }
+            var userAge = UserAge();
+            var friendAge = FriendAge();
 
-            int bestFriendAge;
-            while (true)
-            {
-                Console.Write("How old is your best friend? ");
-                if (int.TryParse(Console.ReadLine(), out bestFriendAge))
-                {
-                    break;
-                }
-                Console.WriteLine("It has to be a whole number! No decimals or letters you crazy person!");
-            }
-
-            EqualChecker(userAge, bestFriendAge);
+            EqualChecker(userAge, friendAge);
 
             IsOddOrEven();
 
@@ -64,7 +45,71 @@ namespace IterationStatementsExercise3Console
                 Console.WriteLine(i);
             }
         }
-       
+
+        public static int UserAge()
+        {
+            bool ageRange;
+            int num1;
+
+            do
+            {
+                while (true)
+                {
+                    Console.WriteLine("How old are you? ");
+                    if (int.TryParse(Console.ReadLine(), out num1))
+                    {
+                        break;
+                    }
+                    Console.WriteLine("It has to be a whole number! No decimals or letters you crazy person!");
+                }
+                
+                if (num1 > 0 && num1 < 120)
+                {
+                    ageRange = true;
+                }
+                else
+                {
+                    Console.WriteLine($"Impossible! There is no way you are {num1}. Try again! No funny business this time!");
+                    ageRange = false;
+                }
+
+            } while (ageRange == false);
+            
+            return num1;
+        }
+
+        public static int FriendAge()
+        {
+            bool ageRange;
+            int num1;
+
+            do
+            {
+                while (true)
+                {
+                    Console.WriteLine("How old is your best friend? ");
+                    if (int.TryParse(Console.ReadLine(), out num1))
+                    {
+                        break;
+                    }
+                    Console.WriteLine("It has to be a whole number! No decimals or letters you crazy person!");
+                }
+
+                if (num1 > 0 && num1 < 120)
+                {
+                    ageRange = true;
+                }
+                else
+                {
+                    Console.WriteLine($"Impossible! There is no way they are {num1}. Try again! No funny business this time!");
+                    ageRange = false;
+                }
+
+            } while (ageRange == false);
+            
+            return num1;
+        }
+
         public static void EqualChecker(int num1, int num2)
         {
             if (num1 == num2)
@@ -97,7 +142,7 @@ namespace IterationStatementsExercise3Console
 
                 if (num1 > 1900 && num1 < 2022)
                 {
-                    var response = (num1 % 2 == 0) ? $"You were born on an even year!" : $"You were born on an odd year!";
+                    var response = (num1 % 2 == 0) ? $"You were born on an EVEN year!" : $"You were born on an ODD year!";
                     Console.WriteLine(response);
                     yearBorn = true;
                 }
@@ -131,7 +176,7 @@ namespace IterationStatementsExercise3Console
         public static void AgeChecker(int userAge)
         {
 
-            var response = (userAge >= 18) ? $"You already told me that you're {userAge}. It looks like you're old enough to vote!" : $"You already told me you're {userAge}. Too bad you are too young to vote!";
+            var response = (userAge >= 18) ? $"I already know that you are {userAge}. It looks like you're old enough to vote!" : $"I already know that you are {userAge}. Too bad, you are too young to vote!";
             Console.WriteLine(response);
             
         }
@@ -174,7 +219,7 @@ namespace IterationStatementsExercise3Console
             int userNumber;
             while (true)
             {
-                Console.Write("Give me any random number, and I'll multilply it by numbers 1 through 12: ");
+                Console.Write("Give me any random number, and I'll multilply it by the numbers 1 through 12: ");
                 if (int.TryParse(Console.ReadLine(), out userNumber))
                 {
                     break;
